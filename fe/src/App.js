@@ -5,10 +5,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import ResetPassword from './pages/ResetPassword';
-import notifications from './pages/notifications';
-import query from './pages/query';
-
-
+// just checking 
 function App() {
   return (
     <Router>
@@ -18,8 +15,6 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
         <Route path="/reset-password" component={ResetPassword} />
-        <Route path="/notifications" component={notifications} />
-        <Route path="/query" component={query} />
       </Switch>
     </Router>
   );
