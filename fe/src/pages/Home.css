@@ -1,0 +1,54 @@
+.home-container {
+  background: linear-gradient(to bottom right, #eb9d71, #a86af5, #0f2027);
+  min-height: 84.3vh;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+  .search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Change the search bar background and border */
+  .search-section input {
+    width: 300px;
+    padding: 0.8rem;
+    font-size: 16px;
+    background-color: #f1f1f1; /* ✅ Light grey background */
+    color: #333; /* text color */
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  /* Style the search button */
+  .search-section button {
+    padding: 0.8rem 1.2rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-section button:hover {
+    background-color: darkred;
+  }
+  
+  .about-section {
+    padding: 1rem 2rem;
+    color: #333;
+  }
+  
+/*.home-container {
+    background-image: url('/backgroundhome.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+  }*/

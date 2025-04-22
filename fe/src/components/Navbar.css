@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #111;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid #333;
+  }
+  
+  .nav-left a,
+  .nav-right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  .nav-center h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .nav-right {
+    display: flex;
+    gap: 1rem;
+  }
+  
