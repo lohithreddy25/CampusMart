@@ -1,8 +1,51 @@
-CampusMart Platform
+# 🛍️ CampusMart Platform
 
+CampusMart is a full-stack, modern e-commerce web application built to deliver a seamless online shopping experience. It is designed using **Spring Boot 3.x with Java 17** on the backend and **React 18 + Vite** on the frontend.
 
-CampusMart Platform is a comprehensive full-stack e-commerce application built with modern web technologies, designed to provide a seamless online shopping experience. The platform leverages Spring Boot 3.x with Java 17 for the backend, implementing robust JWT-based authentication, role-based access control, and secure RESTful APIs. The frontend is powered by React 18 with Vite, featuring a responsive design using Tailwind CSS, Redux for state management, and Material-UI components for an intuitive user interface. The application includes essential e-commerce features such as product catalog management with categories and search functionality, real-time shopping cart operations, comprehensive order processing and tracking, user profile management with multiple address support, and secure image upload capabilities. The backend utilizes PostgreSQL for data persistence with JPA/Hibernate for ORM, Spring Security for authentication and authorization, and Maven for dependency management, while the frontend incorporates Axios for HTTP requests, React Router for navigation, and React Hot Toast for user notifications.
+---
 
-The platform supports multiple user roles including regular users and administrators, with pre-configured default accounts for testing purposes. Users can browse products, add items to their cart, manage their profiles and addresses, place orders with cash-on-delivery payment options, and track their order history. Administrators have additional privileges to manage products, categories, and view comprehensive order analytics. The application features a clean, modern interface with pagination, filtering capabilities, and responsive design that works seamlessly across desktop and mobile devices. The backend API is well-documented and follows RESTful conventions, providing endpoints for authentication (/api/auth/), product management (/api/public/products, /api/admin/products), cart operations (/api/carts/), order processing (/api/order/, /api/user/orders), and user management (/api/users/).
+## 🏗️ Tech Stack
 
-To run the application locally, developers need Java 17+, Node.js 16+, PostgreSQL 12+, and Maven 3.6+. The setup process involves cloning the repository, configuring the PostgreSQL database with the connection details in application.properties, installing backend dependencies with Maven, setting up the frontend with npm install, and starting both servers - the Spring Boot backend on port 8080 and the React frontend on port 5173. The application includes comprehensive error handling, input validation, CORS configuration for cross-origin requests, and security measures including password encryption and JWT token management. The project structure is well-organized with separate directories for backend (sb-ecom2) and frontend (ecomfront) components, making it easy to maintain and extend. This platform serves as an excellent foundation for building scalable e-commerce solutions and demonstrates best practices in full-stack web development using modern Java and React ecosystems.
+### Backend (Java Spring Boot):
+- **Java 17** + **Spring Boot 3.x**
+- **JWT Authentication** and **Role-Based Access Control**
+- **Spring Security**, **JPA (Hibernate)**, **PostgreSQL**
+- **RESTful APIs** with well-structured endpoints
+- **Maven** for dependency management
+
+### Frontend (React + Vite):
+- **React 18**, **Vite**, **Tailwind CSS**
+- **Redux Toolkit** for state management
+- **Material UI** for UI components
+- **Axios** for HTTP communication
+- **React Router** for routing
+- **React Hot Toast** for notifications
+
+---
+
+## 🚀 Features
+
+### 👤 User Functionality:
+- Product catalog with category-based filtering and pagination
+- Real-time shopping cart with quantity adjustments
+- Secure login & signup using JWT
+- Manage profile and multiple addresses
+- Place orders with cash-on-delivery option
+- Order history & tracking
+
+### 🔧 Admin Functionality:
+- Add/update/delete products and categories
+- View and manage all orders
+- Role-based restricted access to admin panels
+- Dashboard for analytics (basic)
+
+### 🖼️ Additional Features:
+- Secure image uploads (Multer/Cloudinary or local storage)
+- Responsive design across devices
+- Input validation & error messages
+- CORS configuration and password hashing
+
+---
+
+## 📂 Project Structure
+
