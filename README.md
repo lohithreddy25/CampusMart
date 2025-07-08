@@ -1,10 +1,10 @@
-# 🛍️ CampusMart Platform
+#  CampusMart Platform
 
 CampusMart is a full-stack, modern e-commerce web application built to deliver a seamless online shopping experience. It is designed using **Spring Boot 3.x with Java 17** on the backend and **React 18 + Vite** on the frontend.
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 ### Backend (Java Spring Boot):
 - **Java 17** + **Spring Boot 3.x**
@@ -23,9 +23,9 @@ CampusMart is a full-stack, modern e-commerce web application built to deliver a
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 👤 User Functionality:
+###  User Functionality:
 - Product catalog with category-based filtering and pagination
 - Real-time shopping cart with quantity adjustments
 - Secure login & signup using JWT
@@ -36,20 +36,20 @@ CampusMart is a full-stack, modern e-commerce web application built to deliver a
 - View and manage all orders
 - Dashboard for analytics (basic)
 
-### 🖼️ Additional Features:
+###  Additional Features:
 - Secure image uploads (Multer/Cloudinary or local storage)
 - Responsive design across devices
 - Input validation & error messages
 - CORS configuration and password hashing
 
 
-### 🖥️ Requirements:
+###  Requirements:
 - Java 17+
 - PostgreSQL 12+
 - Node.js 16+
 - Maven 3.6+
 
-### 🔌 Steps:
+###  Steps:
 1. **Clone the repo**:
     ```bash
     git clone https://github.com/your-username/campusmart.git
@@ -76,7 +76,7 @@ CampusMart is a full-stack, modern e-commerce web application built to deliver a
 
 ---
 
-## 🛡️ Security Measures
+##  Security Measures
 
 - Passwords are hashed using BCrypt
 - JWT token generation & validation
@@ -85,7 +85,7 @@ CampusMart is a full-stack, modern e-commerce web application built to deliver a
 
 ---
 
-## 🎯 Future Improvements
+##  Future Improvements
 
 - Payment gateway integration (Razorpay/Stripe)
 - Product review and ratings
