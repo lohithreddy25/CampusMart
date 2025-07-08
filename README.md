@@ -32,11 +32,8 @@ CampusMart is a full-stack, modern e-commerce web application built to deliver a
 - Manage profile and multiple addresses
 - Place orders with cash-on-delivery option
 - Order history & tracking
-
-### 🔧 Admin Functionality:
 - Add/update/delete products and categories
 - View and manage all orders
-- Role-based restricted access to admin panels
 - Dashboard for analytics (basic)
 
 ### 🖼️ Additional Features:
@@ -45,7 +42,24 @@ CampusMart is a full-stack, modern e-commerce web application built to deliver a
 - Input validation & error messages
 - CORS configuration and password hashing
 
----
+
 
 ## 📂 Project Structure
+
+CampusMart/
+├── sb-ecom2/ # Spring Boot Backend
+│ └── src/main/java/
+│ └── com/campusmart/
+│ ├── controller/
+│ ├── model/
+│ ├── repository/
+│ ├── service/
+│ └── config/
+├── ecomfront/ # React Frontend
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── redux/
+│ │ └── utils/
+
 
